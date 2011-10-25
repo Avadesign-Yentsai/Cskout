@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:text="" android:id="@+id/choosepictestview" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ImageView android:id="@+id/choosepic_view" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/chat"></ImageView>
+    <Button android:text="上傳" android:id="@+id/choosepic_upload" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:text="重選" android:id="@+id/choosepic_reload" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	
+
+</LinearLayout>

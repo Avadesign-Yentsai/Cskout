@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+    <TextView android:text="Age" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+        <TextView android:text="Min" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <EditText android:id="@+id/search_minage" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numeric="integer"></EditText>
+        <TextView android:id="@+id/textView2" android:text="Max" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <EditText android:id="@+id/search_maxage" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numeric="integer"></EditText>
+    </LinearLayout>
+    <TextView android:text="Gender" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <Spinner android:layout_width="match_parent" android:id="@+id/search_gender" android:layout_height="wrap_content"></Spinner>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Interested in" />
+		 	<Spinner android:layout_width="match_parent" android:id="@+id/search_interested" android:layout_height="wrap_content"></Spinner>
+		 	<TextView android:id="@+id/search_testview" android:text=" " android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		 	<Button android:id="@+id/search_submit" android:text="Search" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+   </LinearLayout>

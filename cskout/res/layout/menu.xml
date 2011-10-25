@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+        <ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_findflirts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/find"></ImageButton>
+        <ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_flirtsbuzz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/flirtbuzz"></ImageButton>
+        <ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_lookatme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lookme"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/linearLayout1" android:layout_alignParentRight="true" android:layout_alignParentLeft="true">
+     	<TextView android:id="@+id/textView2" android:layout_weight="1" android:layout_height="wrap_content" android:text="FIND FLIRTS" android:layout_width="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+        <TextView android:id="@+id/textView1" android:layout_weight="1" android:layout_width="wrap_content" android:text="FLIRTS BUZZ" android:layout_height="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+        <TextView android:id="@+id/textView3" android:layout_weight="1" android:layout_height="wrap_content" android:text="LOOK AT ME" android:layout_width="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_below="@+id/linearLayout2">
+     	<ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_myhotlist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hotlist"></ImageButton>
+        <ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_mychats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat"></ImageButton>
+        <ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_myprofiles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/myprofile"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/linearLayout3" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+     	<TextView android:id="@+id/textView2" android:layout_weight="1" android:layout_height="wrap_content" android:text="MY HOTLIST" android:layout_width="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+        <TextView android:id="@+id/textView1" android:layout_weight="1" android:layout_width="wrap_content" android:text="MY CHATS" android:layout_height="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+        <TextView android:id="@+id/textView3" android:layout_weight="1" android:layout_height="wrap_content" android:text="MY PROFILE" android:layout_width="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/linearLayout4" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+    	<ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_points" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/points"></ImageButton>
+        <ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/but_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting"></ImageButton>
+        <ImageButton android:layout_weight="1" android:background="#00000000" android:id="@+id/none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/linearLayout5" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+    	<TextView android:id="@+id/textView2" android:layout_weight="1" android:layout_height="wrap_content" android:text="POINTS" android:layout_width="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+    	<TextView android:id="@+id/textView1" android:layout_weight="1" android:layout_width="wrap_content" android:text="SETTINGS" android:layout_height="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+    	<TextView android:id="@+id/textView3" android:layout_weight="1" android:layout_height="wrap_content" android:text="none" android:layout_width="wrap_content" android:gravity="center" android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+        <ImageButton android:background="#80808080" android:id="@+id/imageButton10" android:layout_height="wrap_content" android:src="@drawable/selector" android:layout_width="match_parent"></ImageButton>
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:text="" android:layout_width="wrap_content" android:id="@+id/maintestview" android:layout_below="@+id/linearLayout6" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"></TextView>
+</RelativeLayout>

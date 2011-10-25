@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<RelativeLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:weightSum="1">
+	
+	
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/linearLayout2" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+		<ImageButton android:id="@+id/flirt_buzz_pic_upload" android:src="@drawable/icon_camera" android:layout_width="46dp" android:layout_height="match_parent"></ImageButton>
+		<EditText android:id="@+id/Buzz_con" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="wrap_content" android:singleLine="true"></EditText>
+		<Button android:text="Send" android:id="@+id/flirt_buzz_send" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/linearLayout2" android:orientation="vertical">
+			<TextView android:text="" android:id="@+id/flirtbuzztestview" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		</LinearLayout>
+	<ListView android:layout_height="wrap_content" android:id="@+id/buzzlist" android:layout_width="wrap_content" android:layout_below="@+id/linearLayout3" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+		
+	</ListView>
+	<LinearLayout 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout1"
+ 	android:layout_height="wrap_content" 
+ 	android:layout_centerVertical="true" 
+ 	android:layout_alignParentLeft="true"
+ 	android:layout_alignParentBottom="true">
+    	<ImageButton android:background="@drawable/botgardient" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/search" android:layout_width="wrap_content" android:src="@drawable/selector"></ImageButton>
+	</LinearLayout>
+</RelativeLayout>
+</LinearLayout>
