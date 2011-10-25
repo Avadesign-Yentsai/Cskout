@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="wrap_content">
+        <ImageView android:id="@+id/buzz_userPic" android:layout_width="wrap_content" android:src="@android:drawable/dialog_frame" android:layout_height="wrap_content"></ImageView>
+        <ProgressBar android:visibility="visible" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/buzz_wait" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></ProgressBar>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="buzz_text1" android:id="@+id/buzz_text1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="buzz_Ctext" android:id="@+id/buzz_Ctext" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <ImageView android:id="@+id/buzz_pic" android:layout_width="wrap_content" android:src="@android:drawable/alert_dark_frame" android:layout_height="wrap_content"></ImageView>
+        <TextView android:text="buzz_time_dis" android:id="@+id/buzz_time_dis" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView1" android:layout_width="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+       <ImageView android:src="@android:drawable/spinner_background" android:layout_height="wrap_content" android:id="@+id/mimageView1" android:layout_width="match_parent"></ImageView>
+       <TextView android:background="#80000000" android:layout_height="wrap_content" android:id="@+id/memberstatus" android:layout_width="fill_parent" android:layout_above="@+id/linearLayout1" android:text="TEXTTEXT"></TextView>
+       <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_alignBottom="@+id/mimageView1">
+           <ImageView android:src="@drawable/icon" android:id="@+id/mimageView2" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+           <ImageView android:src="@drawable/icon" android:id="@+id/mimageView3" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+           <ImageView android:src="@drawable/icon" android:id="@+id/mimageView4" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+           <ImageView android:src="@drawable/icon" android:id="@+id/mimageView5" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+       </LinearLayout>
+       
+          
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/mimageView1" android:id="@+id/titletop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="     "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titletop" android:id="@+id/titlew1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="     "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlew1" android:id="@+id/titlew2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="     "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlew2" android:id="@+id/titlew3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="     "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlew3" android:id="@+id/titlew4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="     "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlew4" android:id="@+id/titlew5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="     "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlew5" android:id="@+id/titlebot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="     "></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FFFFFFFF" android:layout_alignParentLeft="true" android:layout_below="@+id/titlebot" android:id="@+id/titlememberAboutMe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="About Me"></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlememberAboutMe" android:id="@+id/titlememberAboutMeTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlememberAboutMeTop" android:id="@+id/titlememberAboutMeCenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" "></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlememberAboutMeCenter" android:id="@+id/titlememberAboutMeBot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" "></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FFFFFFFF" android:layout_alignParentLeft="true" android:layout_below="@+id/titlememberAboutMeBot" android:id="@+id/titlestatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lastest Flirt Buzz"></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlestatus" android:id="@+id/titlestatus1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlestatus1" android:id="@+id/titlestatus2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""></TextView>
+           <TextView android:layout_alignParentLeft="true" android:layout_below="@+id/titlestatus2" android:id="@+id/titlestatus3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""></TextView>
+           
+           
+           <TextView android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/tabletop" android:layout_alignBottom="@+id/titletop" android:layout_alignTop="@+id/titletop" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:text="" android:gravity="right" android:background="#C8FFFFFF"></TextView>
+           <TextView android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/memberNickName" android:layout_alignBottom="@+id/titlew1" android:layout_alignTop="@+id/titlew1" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:text="" android:gravity="right" android:background="#C8FFFFFF"></TextView>
+           <TextView android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/memberLoc" android:layout_alignBottom="@+id/titlew2" android:layout_alignTop="@+id/titlew2" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:text="" android:gravity="right" android:background="#C8FFFFFF"></TextView>
+           <TextView android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/memberInterested" android:layout_alignBottom="@+id/titlew3" android:layout_alignTop="@+id/titlew3" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:text="" android:gravity="right" android:background="#C8FFFFFF"></TextView>
+           <TextView android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/memberAge" android:layout_alignBottom="@+id/titlew4" android:layout_alignTop="@+id/titlew4" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:text="" android:gravity="right" android:background="#C8FFFFFF"></TextView>
+           <TextView android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/memberGender" android:layout_alignBottom="@+id/titlew5" android:layout_alignTop="@+id/titlew5" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:text="" android:gravity="right" android:background="#C8FFFFFF"></TextView>
+           <TextView android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/tablebot" android:layout_alignBottom="@+id/titlebot" android:layout_alignTop="@+id/titlebot" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:text="" android:gravity="right" android:background="#C8FFFFFF"></TextView>
+           
+           
+           <TextView android:textStyle="bold" android:textColor="#FF000000" android:id="@+id/titlememberNickName" android:layout_alignTop="@+id/titlew1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   Name"></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/titlememberLoc" android:layout_alignTop="@+id/titlew2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   Location"></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/titlememberInterested" android:layout_alignTop="@+id/titlew3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   Interested in"></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/titlememberAge" android:layout_alignTop="@+id/titlew4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   Age"></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FF000000" android:layout_alignParentLeft="true" android:id="@+id/titlememberGender" android:layout_alignTop="@+id/titlew5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="   Gender"></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FF000000" android:id="@+id/memberAboutMeTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_below="@+id/titlememberAboutMe" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:gravity="right" android:background="#C8FFFFFF" android:layout_above="@+id/titlememberAboutMeCenter"></TextView>
+           <TextView android:textColor="#FF000000" android:id="@+id/memberAboutMeCenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignTop="@+id/titlememberAboutMeCenter" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:background="#C8FFFFFF" android:gravity="center" android:layout_above="@+id/titlememberAboutMeBot"></TextView>
+           <TextView android:textStyle="bold" android:textColor="#FF000000" android:id="@+id/memberAboutMeBot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignTop="@+id/titlememberAboutMeBot" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:gravity="right" android:layout_alignBottom="@+id/titlememberAboutMeBot" android:background="#C8FFFFFF"></TextView>
+           <ListView android:id="@+id/memberlistView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/titlestatus1" android:layout_toRightOf="@+id/titlestatus1"></ListView>
+       
+       </RelativeLayout>
+   
+    </ScrollView>
+   <LinearLayout 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout2"
+ 	android:layout_height="wrap_content" 
+ 	android:layout_centerVertical="true" 
+ 	android:layout_alignParentLeft="true"
+ 	android:layout_alignParentBottom="true">
+       <ImageButton  android:background="@drawable/botgardient" android:src="@drawable/selector" android:id="@+id/wink" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></ImageButton>
+       <ImageButton  android:background="@drawable/botgardient" android:src="@drawable/selector" android:id="@+id/chat" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></ImageButton>
+       <ImageButton  android:background="@drawable/botgardient" android:src="@drawable/selector" android:id="@+id/addhotlist" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></ImageButton>
+       <ImageButton  android:background="@drawable/botgardient" android:src="@drawable/selector" android:id="@+id/gift" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></ImageButton>
+       <ImageButton  android:background="@drawable/botgardient" android:src="@drawable/selector" android:id="@+id/more" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></ImageButton>
+    </LinearLayout>
+   <TextView android:layout_width="wrap_content" android:text="" android:id="@+id/membertestview" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></TextView>
+   
+   
+    
+</RelativeLayout>

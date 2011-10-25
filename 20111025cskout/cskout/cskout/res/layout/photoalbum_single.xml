@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_height="wrap_content" android:id="@+id/photo_no_sum" android:text="Button" android:layout_width="match_parent" android:background="#00000000" android:textColor="#FFFFFFFF"></Button>
+    <ImageView android:id="@+id/photo_view_single" android:layout_height="wrap_content" android:layout_width="match_parent" android:src="@drawable/chat"></ImageView>
+   
+</LinearLayout>

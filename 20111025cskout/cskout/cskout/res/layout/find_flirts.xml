@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+   <TextView android:text="" android:id="@+id/find_flirts_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></TextView>
+
+<RelativeLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:weightSum="1">
+   	<GridView
+	android:id="@+id/gridView1"
+	android:layout_width="fill_parent" 
+	android:padding="0dp"
+	android:numColumns="auto_fit"
+	android:verticalSpacing="0dp"
+	android:horizontalSpacing="0dp"
+	android:stretchMode="columnWidth"
+	android:gravity="center" 
+	android:layout_height="fill_parent"/>
+	
+	<LinearLayout 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout1"
+ 	android:layout_height="wrap_content" 
+ 	android:layout_centerVertical="true" 
+ 	android:layout_alignParentLeft="true"
+ 	android:layout_alignParentBottom="true">
+    	<ImageButton android:background="@drawable/botgardient" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/find_search" android:layout_width="wrap_content" android:src="@drawable/selector"></ImageButton>
+    	<ImageButton android:background="@drawable/botgardient" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/find_whocheck" android:layout_width="wrap_content" android:src="@drawable/selector"></ImageButton>
+    	<ImageButton android:background="@drawable/botgardient" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/find_winkbomb" android:layout_width="wrap_content" android:src="@drawable/selector"></ImageButton>
+    	<ImageButton android:background="@drawable/botgardient" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/find_listview" android:layout_width="wrap_content" android:src="@drawable/selector"></ImageButton>
+	
+	</LinearLayout>
+	
+</RelativeLayout>
+</LinearLayout>
